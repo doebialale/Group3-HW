@@ -1,4 +1,4 @@
-resource "aws_s3_bucket" "ForLogsNSnapshotsdoebi" {
+resource "aws_s3_bucket" "ForLogsNSnapshots" {
         bucket = var.logs_bucket
         acl = "private"
         tags = {
